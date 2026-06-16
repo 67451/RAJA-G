@@ -17,12 +17,12 @@ module.exports = {
     const { threadID } = event;
 
     const ownerName = config.ADMIN_NAME || config.AI_OWNER || 'Owner';
-    const botName = config.BOTNAME || 'SARDAR RDX BOT';
+    const botName = config.BOTNAME || 'RAJA G BOT';
     const prefix = config.PREFIX || '.';
     const adminID = config.ADMINBOT?.[0] || config.AI_OWNER_UID || null;
 
     const ownerPics = [
-      'https://i.ibb.co/6ckwbv4V/06291e1dc09d.jpg'
+      'https://i.ibb.co/5XgJQBnK/0fe1d7da6d73.jpg'
     ];
 
     const randomPic = ownerPics[Math.floor(Math.random() * ownerPics.length)];
