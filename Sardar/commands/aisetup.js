@@ -60,7 +60,7 @@ module.exports = {
         `╭─── « 🤖 AI SETTINGS » ───⟡\n` +
         `│\n` +
         `│ ◈ 𝗔𝗜 𝗡𝗮𝗺𝗲   : ${bold(cfg.AI_NAME || 'Mano')}\n` +
-        `│ ◈ 𝗢𝘄𝗻𝗲𝗿     : ${bold(cfg.AI_OWNER || 'Sardar RDX')}\n` +
+        `│ ◈ 𝗢𝘄𝗻𝗲𝗿     : ${bold(cfg.AI_OWNER || 'RAJA G')}\n` +
         `│ ◈ 𝗠𝗼𝗱𝗲𝗹     : ${cfg.AI_MODEL || 'llama-3.1-8b'}\n` +
         `│ ◈ 𝗔𝗣𝗜 𝗞𝗲𝘆   : ${keyDisplay}\n` +
         `│ ◈ 𝗦𝘁𝗮𝘁𝘂𝘀    : ${status}\n` +
@@ -101,7 +101,7 @@ module.exports = {
 
     if (sub === 'owner') {
       const ownerName = args.slice(1).join(' ').trim();
-      if (!ownerName) return send.reply('❌ Owner naam likhna bhool gaye!\nExample: .aisetup owner Sardar RDX');
+      if (!ownerName) return send.reply('❌ Owner naam likhna bhool gaye!\nExample: .aisetup owner RAJA G');
       cfg.AI_OWNER = ownerName;
       saveConfig(cfg);
       return send.reply(
