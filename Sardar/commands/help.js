@@ -87,14 +87,14 @@ function buildMainMenu(userName, config, total, catNames, time) {
   const uptime   = getUptime();
 
   let msg = '';
-  msg += topBar(config.BOTNAME || 'SARDAR RDX BOT') + '\n';
+  msg += topBar(config.BOTNAME || 'RAJA G  BOT') + '\n';
   msg += `│\n`;
   msg += `│ ✅ ▰▰▰▰▰▰▰▰▰▰ 𝟭𝟬𝟬%\n`;
   msg += `│\n`;
   msg += `│ ⊳ ${bold('Hi •─┼ its me')} ${userName}, ${bold(greeting)}!\n`;
   msg += `│\n`;
   msg += `│ ◈ ${bold('Version')} : ${config.VERSION || '2.0.0'}\n`;
-  msg += `│ ◈ ${bold('Owner')}   : ${bold(config.ADMIN_NAME || config.AI_OWNER || 'SARDAR RDX')}\n`;
+  msg += `│ ◈ ${bold('Owner')}   : ${bold(config.ADMIN_NAME || config.AI_OWNER || 'RAJA G')}\n`;
   msg += `│ ◈ ${bold('Ram')}     : ${ram}\n`;
   msg += `│ ◈ ${bold('Uptime')}  : ${uptime}\n`;
   msg += `│ ◈ ${bold('Prefix')}  : ${config.PREFIX || '.'}\n`;
@@ -167,7 +167,7 @@ function buildAllMsg(cats, prefix, config, total, time) {
   }
 
   msg += `│ 💡 ${prefix}${bold('help [cmd]')} for details\n`;
-  msg += `│ 👑 ${bold(config.AI_OWNER || 'SARDAR RDX')} BOT`;
+  msg += `│ 👑 ${bold(config.AI_OWNER || 'RAJA G')} BOT`;
   return msg;
 }
 
@@ -258,9 +258,9 @@ module.exports = {
     }
 
     // ── .help — main menu
-    const sent = await sendMsg(api, LOAD0(config.BOTNAME || 'SARDAR RDX BOT'), threadID, messageID);
+    const sent = await sendMsg(api, LOAD0(config.BOTNAME || 'RAJA G BOT'), threadID, messageID);
     await sleep(600);
-    await editMsg(api, LOAD1(config.BOTNAME || 'SARDAR RDX BOT'), sent.messageID);
+    await editMsg(api, LOAD1(config.BOTNAME || 'RAJA G BOT'), sent.messageID);
     await sleep(700);
 
     const finalMsg = buildMainMenu(userName, config, allCmds.length, catNames, time);
