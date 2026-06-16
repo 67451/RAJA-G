@@ -21,7 +21,7 @@ module.exports = {
 
         try {
             const settings = Threads.getSettings(threadID);
-            const botNickname = settings?.botNickname || config.BOTNICKNAME || config.BOTNAME || 'RDX Bot';
+            const botNickname = settings?.botNickname || config.BOTNICKNAME || config.BOTNAME || 'Raja g Bot';
 
             try { await api.changeNickname(botNickname, threadID, botID); } catch {}
 
@@ -32,7 +32,7 @@ module.exports = {
                 `\n` +
                 `✦ ━━━━━━━━━━━━━━━━━━━━━━ ✦\n` +
                 `\n` +
-                `👋  Hello Everyone! I'm ${config.BOTNAME || 'RDX Bot'}\n` +
+                `👋  Hello Everyone! I'm ${config.BOTNAME || 'Raja g Bot'}\n` +
                 `🤖  Your new group assistant is here!\n` +
                 `\n` +
                 `┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n` +
@@ -41,7 +41,7 @@ module.exports = {
                 `🎀  𝑬𝒏𝒋𝒐𝒚! 𝑨𝒂𝒑 𝒌𝒂 𝒔𝒘𝒂𝒈𝒂𝒕 𝒉𝒂𝒊! 🌸\n` +
                 `\n` +
                 `✦ ━━━━━━━━━━━━━━━━━━━━━━ ✦\n` +
-                `🤖  𝗣𝗼𝘄𝗲𝗿𝗲𝗱  𝗯𝘆  𝗦𝗔𝗥𝗗𝗔𝗥  𝗥𝗗𝗫  𝗕𝗢𝗧`;
+                `🤖  𝗣𝗼𝘄𝗲𝗿𝗲𝗱  𝗯𝘆  𝙍𝘼𝙅𝘼 𝙂 𝗕𝗢𝗧`;
 
             try {
                 if (fs.existsSync(VIDEO_PATH)) {
