@@ -20,7 +20,7 @@ module.exports = {
         if (!botJoined) return;
 
         try {
-            const botnick = config.BOTNICK || config.BOTNAME || 'RDX BOT';
+            const botnick = config.BOTNICK || config.BOTNAME || 'RAJA G BOT';
             try { await api.changeNickname(botnick, threadID, botID); } catch {}
 
             let threadName = 'Unknown Group';
@@ -43,18 +43,18 @@ module.exports = {
                 `𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐰 𝐀𝐜𝐭𝐢𝐯𝐞 ✅`;
 
             const msg2 =
-                `┏━━━ ⚡ 𝐑𝐃𝐗 𝐁𝐎𝐓 ⚡ ━━━┓\n` +
+                `┏━━━ ⚡ 𝙍𝘼𝙅𝘼 𝙂 𝐁𝐎𝐓 ⚡ ━━━┓\n` +
                 `┃                           \n` +
-                `┃  🌹 ꧁𝐒𝐀𝐑𝐃𝐀𝐑 𝐑𝐃𝐗꧂ 🌹  \n` +
+                `┃  🌹 ꧁𝙍𝘼𝙅𝘼 𝙂꧂ 🌹  \n` +
                 `┃                           \n` +
                 `┃   ✨ 𝐒𝐘𝐒𝐓𝐄𝐌 𝐋𝐈𝐕𝐄 ✨    \n` +
                 `┃                           \n` +
                 `┣━━━━━━━━━━━━━━━━━━┫\n` +
                 `┃ 👑 𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎            \n` +
-                `┃ 👤 Sardar RDX             \n` +
-                `┃ 🌐 fb.com/Sardar.RDX.786  ┃\n` +
+                `┃ 👤 RAJA G.                 \n` +
+                `┃ 🌐 fb.com/RAJA.RDX.786  ┃\n` +
                 ` 📞 +923301068874          \n` +
-                `✈️ Telegram: @SardarRDX7  \n` +
+                `✈️ Telegram: @RAJARDX7  \n` +
                 `┣━━━━━━━━━━━━━━━━━━━┫\n` +
                 `┃ 🏠 Group : ${threadName.slice(0, 18)}\n` +
                 `┃ 📅 Date  : ${date}\n` +
@@ -65,7 +65,7 @@ module.exports = {
                 `┃ 📍 Add dev to keep bot    \n` +
                 `┃ 📍 ${config.PREFIX}help — all commands     \n` +
                 `┗━━━━━━━━━━━━━━━━━━━┛\n` +
-                `  🎀🌸 𝐒𝐀𝐑𝐃𝐀𝐑 𝐑𝐃𝐗 𝐁𝐎𝐓 🌸🎀`;
+                `  🎀🌸 𝙍𝘼𝙅𝘼 𝙂 𝐁𝐎𝐓 🌸🎀`;
 
             const videoPath = path.join(__dirname, 'cache', 'botjoin.mp4');
 
