@@ -57,7 +57,7 @@ module.exports = {
                 `╰──〔❨✧✧❩〕──╯\n\n` +
                 `👑 Assalam o Alaikum Owner! 👑\n` +
                 `${'꘏'.repeat(18)}\n\n` +
-                `🌹 ꧁ ${name} ꧂ 🌹\n\n` +
+                `🌹 ꧁ ${𝙍𝘼𝙅𝘼 𝙂} ꧂ 🌹\n\n` +
                 `🤖 Aapka Bot intezaar kar raha tha!\n` +
                 `💖 Khush Aamdeed Maalik!\n\n` +
                 `${'꘏'.repeat(18)}\n` +
