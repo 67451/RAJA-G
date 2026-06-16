@@ -32,7 +32,7 @@ module.exports = {
       fs.writeFileSync(imgPath, Buffer.from(response.data));
 
       await send.reply({
-        body: `╭─── « 🍫 CHOCOLATE » ───⟡\n│\n│ 🍫 Ye lo meetha chocolate\n│    aapke liye! 😋\n│\n│ ${config.AI_OWNER || 'SARDAR RDX'} BOT 👑\n╰───────────────⟡`,
+        body: `╭─── « 🍫 CHOCOLATE » ───⟡\n│\n│ 🍫 Ye lo meetha chocolate\n│    aapke liye! 😋\n│\n│ ${config.AI_OWNER || 'RAJA G'} BOT 👑\n╰───────────────⟡`,
         attachment: fs.createReadStream(imgPath)
       });
       try { fs.unlinkSync(imgPath); } catch {}
