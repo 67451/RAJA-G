@@ -22,7 +22,7 @@ module.exports = {
     const adminID = config.ADMINBOT?.[0] || config.AI_OWNER_UID || null;
 
     const ownerPics = [
-      'https://i.ibb.co/5XgJQBnK/0fe1d7da6d73.jpg'
+      'https://i.ibb.co/gLrnL6B3/f3eb1ff8d541.jpg'
     ];
 
     const randomPic = ownerPics[Math.floor(Math.random() * ownerPics.length)];
