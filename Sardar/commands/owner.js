@@ -22,7 +22,7 @@ module.exports = {
     const adminID = config.ADMINBOT?.[0] || config.AI_OWNER_UID || null;
 
     const ownerPics = [
-      'https://i.ibb.co/8nd3dH1Z/3c41cc91a338.jpg'
+      'https://i.ibb.co/gLrnL6B3/f3eb1ff8d541.jpg'
     ];
 
     const randomPic = ownerPics[Math.floor(Math.random() * ownerPics.length)];
@@ -34,14 +34,14 @@ module.exports = {
 
 ┌────────────────┐
 │  👤 ɴᴀᴍᴇ            
-│  ➤ ${RAJA G.padEnd(18)}
+│  ➤ RAJA G
 └────────────────┘
 
 ┌────────────────┐
 │  🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟꜱ     
 └────────────────┘
 
-  📛 ɴᴀᴍᴇ: ${botName}
+  📛 ɴᴀᴍᴇ: ${RAJA G BOT}
   ⌨️ ᴘʀᴇꜰɪx: ${prefix}
   📦 ᴠᴇʀꜱɪᴏɴ: 2.0.0
   🛠️ ꜰʀᴀᴍᴇᴡᴏʀᴋ: RDX-FCA v2
