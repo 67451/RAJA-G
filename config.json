@@ -4,11 +4,11 @@
   "BOTNAME": "🩷𓆩๛⃝𝐌𝐀𝐍𝐎𓆪𓆤",
   "PREFIX": ".",
   "ADMINBOT": [
-    "61590961726791"
+    "61591086284460"
   ],
   "ADMIN_NAME": "RAJA G",
   "ADMINBOT_NAMES": {
-    "61590961726791": "RAJA G"
+    "61591086284460": "RAJA G"
   },
   "PREFIX_ENABLED": true,
   "REACT_DELETE_EMOJI": "😡",
@@ -24,10 +24,10 @@
   "LOG_MESSAGES": true,
   "IGNORED_USERS": [],
   "DISABLED_COMMANDS": [],
-  "NOTIFY_TID": "61590961726791",
+  "NOTIFY_TID": "61591086284460",
   "AI_NAME": "Mano",
   "AI_OWNER": "RAJA G",
-  "AI_OWNER_UID": "61590961726791",
+  "AI_OWNER_UID": "61591086284460",
   "AI_MODEL": "gpt-oss-120b",
   "AI_ENABLED": true,
   "AI_API_KEY": "csk-9tevkhkfp6weddwy955rf6mt9f3fy8hhtjeptxv42wdvcr8j",
