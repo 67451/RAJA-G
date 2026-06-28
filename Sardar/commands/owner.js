@@ -13,7 +13,7 @@ module.exports = {
     prefix: false
   },
 
-  async run({ api, event, send, config }) {
+  async run({ api, event, send, config }) :
     const { threadID } = event;
 
     const ownerName = config.ADMIN_NAME || config.AI_OWNER || 'Owner';
@@ -22,7 +22,7 @@ module.exports = {
     const adminID = config.ADMINBOT?.[0] || config.AI_OWNER_UID || null;
 
     const ownerPics = [
-      'https://i.ibb.co/gLrnL6B3/f3eb1ff8d541.jpg'
+      'https://i.ibb.co/8nd3dH1Z/3c41cc91a338.jpg'
     ];
 
     const randomPic = ownerPics[Math.floor(Math.random() * ownerPics.length)];
