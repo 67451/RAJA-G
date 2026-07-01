@@ -13,7 +13,7 @@ module.exports = {
     prefix: false
   },
 
-  async run({ api, event, send, config }) :
+  async run({ api, event, send, config })  {
     const { threadID } = event;
 
     const ownerName = config.ADMIN_NAME || config.AI_OWNER || 'Owner';
