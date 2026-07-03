@@ -124,7 +124,7 @@ const GIRL_OWNER_RESP = [
 const BOY_OWNER_RESP = [
   "Boss! 🫡 Aap ka hukam sir aankhon par!",
   "Assalamualaikum Boss! 💕 Kya hukam hai aapka?",
-  "Ji Sir! Annu sirf Raja ki ha bus ",
+  "Ji Sir! Raja sir apna hukm sir ankho pr",
   "Boss! 😊 Aap ne yaad kiya, main khush ho gayi!",
   "Malik! 💯 Main sun rahi hoon, farmayein!",
   "Ji Sir! 🙏 Mera creator bola, main hazir hui!",
