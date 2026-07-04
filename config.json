@@ -8,7 +8,7 @@
   ],
   "ADMIN_NAME": "RAJA G",
   "ADMINBOT_NAMES": {
-    "61590613139884": "RAJA G"
+    "61590613139884": "Mahi Jutti"
   },
   "PREFIX_ENABLED": true,
   "REACT_DELETE_EMOJI": "😡",
@@ -26,7 +26,7 @@
   "DISABLED_COMMANDS": [],
   "NOTIFY_TID": "61590613139884",
   "AI_NAME": "Mano",
-  "AI_OWNER": "RAJA G",
+  "AI_OWNER": "Mahi Jutti",
   "AI_OWNER_UID": "61590613139884",
   "AI_MODEL": "gpt-oss-120b",
   "AI_ENABLED": true,
