@@ -49,7 +49,7 @@ module.exports = {
       "Abhi available hun thodi der ke liye 😌",
       "Yaar phir bot bol diya 🙄",
       "Kali Biwi milygi tjha 🤔",
-      "Bol na dil ki baat 🥺",
+      "Lagta ha bari zor ki i ha 😹",
       "Haan haan bolo kia kehna tha 😑",
       "Wife ka sath date pa giya jiski thi osna dekh liya😤",
       "Mera Boss Raja ha bus osi ka hon ma ❤️",
