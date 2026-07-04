@@ -25,7 +25,7 @@ module.exports = {
     if (!triggered) return;
 
     const msgs = [
-      "Han g bolo sun RHA hu Jan 🥰",
+      "Washroom Jao yaha nhi kr dena 😾",
       "Haldi Lgana ki omer ma larkiya chuna lga rahi han 🤭",
       "Shakal achi nhi banda bat achi kr leta ha 😂",
       "aby ruk tare to bot bot krta rehta 😾",
@@ -43,18 +43,18 @@ module.exports = {
       "Naha kr aao badbo a rahi tmsa 🤭",
       "Acha acha samajh gaya bolo 😏",
       "Tang kiya to Raja boss ko bta donga 🤗",
-      "Kia hua bata do mujhe 😇",
+      "Charsi lagta ha to mja 🧐",
       "Bahir aker dant tor donga tere 😾",
-      "Dekh rha tha tujhe hi 😒",
+      "I love u jano Aga bolo 😘",
       "Abhi available hun thodi der ke liye 😌",
-      "Yaar phir bot bol diya 🙄",
+      "Bilo Nach warna goli mar donga tjha😾",
       "Kali Biwi milygi tjha 🤔",
       "Lagta ha bari zor ki i ha 😹",
       "Haan haan bolo kia kehna tha 😑",
       "Wife ka sath date pa giya jiski thi osna dekh liya😤",
       "Mera Boss Raja ha bus osi ka hon ma ❤️",
       "Mil le pehle phir baat karna 😒",
-      "Busy hu yaar baad mein aana 🕵️‍♂️"
+      "Kolkhuwani ka chawalo ka v apna maza ha  😋"
     ];
 
     const replyText = msgs[Math.floor(Math.random() * msgs.length)];
