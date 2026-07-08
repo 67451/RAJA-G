@@ -46,7 +46,7 @@ module.exports = {
       "Charsi lagta ha to mja 🧐",
       "Bahir aker dant tor donga tere 😾",
       "I love u jano Aga bolo 😘",
-      "Abhi available hun thodi der ke liye 😌",
+      "Ater ki shishi truck ma phans gye tera intezar krty krty mere khoti v nas gye 😌",
       "Bilo Nach warna goli mar donga tjha😾",
       "Kali Biwi milygi tjha 🤔",
       "Lagta ha bari zor ki i ha 😹",
